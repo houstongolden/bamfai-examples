@@ -1,0 +1,48 @@
+{
+  "page_title": "Sam Rivera — 2 post concepts (saved as drafts)",
+  "heading": "Two post concepts",
+  "creator": {
+    "name": "Sam Rivera",
+    "meta": "Acme Devtools · prepared 2026-07-08",
+    "avatar_url": "",
+    "note": "avatar_url: use creator_space.linkedin_profile.profile_image_url from GET /creator-spaces. Leave empty to get an initials fallback."
+  },
+  "status_html": "<b>Saved as drafts in BAMF.</b> Nothing is scheduled and nothing is published.<br>Line breaks render exactly as they will post: a blank line makes a paragraph gap, a single newline stacks the next line tight.",
+  "posts": [
+    {
+      "key": "c1",
+      "tag": "Concept 1",
+      "badge": "saved as draft",
+      "title": "Nobody reads your changelog",
+      "subtitle": "Contrarian take · text + first comment",
+      "nav_label": "Changelog",
+      "content": "Nobody reads your changelog.\n\nThey read the diff of their own broken build.\n\nWe spent a year writing careful release notes.\nVersion numbers.\nMigration guides.\nNeat little bullet points.\n\nThen we watched the support tickets.\n\nNot one person had read any of it.",
+      "first_comment": "The fix that worked for us: put the breaking change in the error message itself, not the docs.",
+      "meta_left": "Vocabulary: docs, tickets, error messages",
+      "post_id": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "key": "c2",
+      "tag": "Concept 2",
+      "badge": "saved as draft",
+      "title": "The demo that failed on purpose",
+      "subtitle": "Founder narrative · from interview transcript",
+      "nav_label": "The demo",
+      "content": "I once shipped a demo that failed on purpose.\n\nIt showed the error screen first.\nThen the recovery.\n\nBecause that was the honest pitch.\n\nEvery tool looks great when nothing breaks.",
+      "first_comment": "Buyers trust the recovery story more than the happy path.",
+      "meta_left": "Vocabulary: demos, failure, trust",
+      "post_id": "00000000-0000-0000-0000-000000000001",
+      "media": [
+        {
+          "url": "",
+          "alt": "Optional image or carousel slide preview",
+          "caption": "media[]: attach generated image/carousel previews here — use a URL from POST /generate/images output, or a data_uri"
+        }
+      ]
+    }
+  ],
+  "footer_notes": [
+    "<b>Still open — decisions the creator must make before anything goes live.</b>",
+    "Put unresolved questions here: names to confirm, sensitive facts excluded, scheduling."
+  ]
+}
