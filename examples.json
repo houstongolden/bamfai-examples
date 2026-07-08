@@ -1,0 +1,30 @@
+{
+  "$schema_note": "Machine-readable index of this repo for coding agents. Fetch raw: https://raw.githubusercontent.com/houstongolden/bamfai-examples/main/examples.json",
+  "version": 1,
+  "repo": "https://github.com/houstongolden/bamfai-examples",
+  "raw_base": "https://raw.githubusercontent.com/houstongolden/bamfai-examples/main",
+  "categories": {
+    "examples": "Small, single-purpose pieces (HTML pages, scripts) an agent can pull down and use directly in a session.",
+    "starters": "Full starter applications (Next.js, Vite, etc.) built on the BAMF API/MCP — scaffold a project from these."
+  },
+  "examples": [
+    {
+      "id": "post-review-html",
+      "category": "examples",
+      "path": "examples/post-review-html",
+      "title": "Post Review HTML",
+      "description": "BAMF-branded local HTML page for reviewing generated post drafts with exact LinkedIn line-break rendering. Agents: generate drafts, render this, open it, keep editing in chat.",
+      "when_to_use": "Any time you create or edit BAMF post drafts in a terminal agent session and the user needs to review copy.",
+      "entrypoint": "render.py",
+      "files": [
+        "examples/post-review-html/README.md",
+        "examples/post-review-html/template.html",
+        "examples/post-review-html/render.py",
+        "examples/post-review-html/sample.review.json"
+      ],
+      "requires": ["python3 (stdlib only)"],
+      "bamf_apis": ["GET /creator-spaces", "POST /generate/posts", "POST /posts", "PATCH /posts/{post_id}"]
+    }
+  ],
+  "starters": []
+}
