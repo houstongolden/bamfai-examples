@@ -1,9 +1,9 @@
 {
-  "page_title": "Sam Rivera — 2 post concepts (saved as drafts)",
+  "page_title": "Sam Rivera \u2014 2 post concepts (saved as drafts)",
   "heading": "Two post concepts",
   "creator": {
     "name": "Sam Rivera",
-    "meta": "Acme Devtools · prepared 2026-07-08",
+    "meta": "Acme Devtools \u00b7 prepared 2026-07-08",
     "avatar_url": "",
     "note": "avatar_url: use creator_space.linkedin_profile.profile_image_url from GET /creator-spaces. Leave empty to get an initials fallback."
   },
@@ -14,7 +14,7 @@
       "tag": "Concept 1",
       "badge": "saved as draft",
       "title": "Nobody reads your changelog",
-      "subtitle": "Contrarian take · text + first comment",
+      "subtitle": "Contrarian take \u00b7 text + first comment",
       "nav_label": "Changelog",
       "content": "Nobody reads your changelog.\n\nThey read the diff of their own broken build.\n\nWe spent a year writing careful release notes.\nVersion numbers.\nMigration guides.\nNeat little bullet points.\n\nThen we watched the support tickets.\n\nNot one person had read any of it.",
       "first_comment": "The fix that worked for us: put the breaking change in the error message itself, not the docs.",
@@ -26,7 +26,7 @@
       "tag": "Concept 2",
       "badge": "saved as draft",
       "title": "The demo that failed on purpose",
-      "subtitle": "Founder narrative · from interview transcript",
+      "subtitle": "Founder narrative \u00b7 from interview transcript",
       "nav_label": "The demo",
       "content": "I once shipped a demo that failed on purpose.\n\nIt showed the error screen first.\nThen the recovery.\n\nBecause that was the honest pitch.\n\nEvery tool looks great when nothing breaks.",
       "first_comment": "Buyers trust the recovery story more than the happy path.",
@@ -34,15 +34,28 @@
       "post_id": "00000000-0000-0000-0000-000000000001",
       "media": [
         {
+          "kind": "image",
           "url": "",
-          "alt": "Optional image or carousel slide preview",
-          "caption": "media[]: attach generated image/carousel previews here — use a URL from POST /generate/images output, or a data_uri"
+          "alt": "Quote card preview",
+          "caption": "kind=image: url or data_uri from POST /generate/images output"
+        },
+        {
+          "kind": "carousel",
+          "slides": [],
+          "pdf_url": "",
+          "alt": "slide",
+          "caption": "kind=carousel: slides[] image urls + pdf_url from POST /generate/carousels / carousel-pdfs"
+        },
+        {
+          "kind": "pending",
+          "job_id": "00000000-0000-0000-0000-00000000abcd",
+          "caption": "kind=pending: shown while a generation job runs; re-render when it succeeds"
         }
       ]
     }
   ],
   "footer_notes": [
-    "<b>Still open — decisions the creator must make before anything goes live.</b>",
+    "<b>Still open \u2014 decisions the creator must make before anything goes live.</b>",
     "Put unresolved questions here: names to confirm, sensitive facts excluded, scheduling."
   ]
 }

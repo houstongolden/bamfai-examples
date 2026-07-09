@@ -57,7 +57,11 @@ Real flow:
     "meta_left": "Vocabulary: …",  // optional footer-left note
     "post_id": "uuid",             // BAMF post id, shown for PATCH follow-ups
     "media": [{                    // optional image/carousel previews
-      "url": "https://…",          // or "data_uri": "data:image/png;base64,…"
+      "kind": "image",             // image (default) | carousel | pdf | pending
+      "url": "https://…",          // image/pdf: or "data_uri": "data:…"
+      "slides": ["https://…"],     // carousel: slide image urls
+      "pdf_url": "https://…",      // carousel: LinkedIn-ready PDF
+      "job_id": "uuid",            // pending: generation job to poll
       "alt": "…", "caption": "…"
     }]
   }],

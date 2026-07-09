@@ -64,16 +64,42 @@ def initials_avatar(name):
 
 
 def media_html(media):
+    """Render media entries. kind: image (default) | carousel | pdf | pending.
+
+    - image: full-width image with optional caption
+    - carousel: {"kind": "carousel", "slides": [urls...], "pdf_url": "...", "caption": "..."}
+      renders a horizontal slide strip plus a PDF link
+    - pdf: bare link row to a document
+    - pending: placeholder while a generation job is still running
+    """
     if not media:
         return ""
     items = []
     for m in media:
-        src = m.get("data_uri") or m.get("url") or ""
-        if not src:
-            continue
+        kind = m.get("kind", "image")
         cap = f'<div class="cap">{html.escape(m["caption"])}</div>' if m.get("caption") else ""
-        items.append(f'<div class="media"><img src="{html.escape(src)}" alt="'
-                     f'{html.escape(m.get("alt", ""))}">{cap}</div>')
+        if kind == "carousel":
+            slides = [s for s in (m.get("slides") or []) if s]
+            imgs = "".join(f'<img src="{html.escape(s)}" alt="{html.escape(m.get("alt", "slide"))}">'
+                           for s in slides)
+            pdf = (f'<div class="media-link"><a href="{html.escape(m["pdf_url"])}" target="_blank"'
+                   f' rel="noopener">Open LinkedIn-ready PDF</a></div>') if m.get("pdf_url") else ""
+            if imgs or pdf:
+                items.append(f'<div class="media strip">{imgs}</div>{pdf}{cap and f"<div class=media>{cap}</div>"}')
+        elif kind == "pdf":
+            if m.get("url"):
+                items.append(f'<div class="media-link"><a href="{html.escape(m["url"])}" target="_blank"'
+                             f' rel="noopener">{html.escape(m.get("caption") or "Open PDF")}</a></div>')
+        elif kind == "pending":
+            label = m.get("caption") or "Asset still generating — re-render when the job succeeds."
+            items.append(f'<div class="media"><div class="pending">{html.escape(label)}'
+                         f'{" (job " + html.escape(m["job_id"]) + ")" if m.get("job_id") else ""}</div></div>')
+        else:
+            src = m.get("data_uri") or m.get("url") or ""
+            if not src:
+                continue
+            items.append(f'<div class="media"><img src="{html.escape(src)}" alt="'
+                         f'{html.escape(m.get("alt", ""))}">{cap}</div>')
     return "".join(items)
 
 
