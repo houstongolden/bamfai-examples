@@ -39,6 +39,13 @@ Full applications built on the BAMF API/MCP (Next.js dashboard, Vite widget,
 webhook worker, …) will live in `starters/`. See each starter's README for its
 stack and setup once published.
 
+## Who these are for
+
+All current examples and starters are single-creator workflows. Agency and
+multi-creator examples (roster dashboards, client approval portals,
+cross-creator calendars, …) are planned in [`ROADMAP.md`](ROADMAP.md) as
+coming soon — not built yet.
+
 ## Getting started (humans)
 
 Browse the examples, pick one that fits, and follow its README. Most examples

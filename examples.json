@@ -5,12 +5,14 @@
   "raw_base": "https://raw.githubusercontent.com/houstongolden/bamfai-examples/main",
   "categories": {
     "examples": "Small, single-purpose pieces (HTML pages, scripts) an agent can pull down and use directly in a session.",
-    "starters": "Full starter applications (Next.js, Vite, etc.) built on the BAMF API/MCP — scaffold a project from these."
+    "starters": "Full starter applications (Next.js, Vite, etc.) built on the BAMF API/MCP — scaffold a project from these.",
+    "audiences": "Every entry declares an 'audience': 'creator' (single-creator workflows — what's published here today) or 'agency' (multi-creator/agency workflows — planned in ROADMAP.md as coming soon, none published yet)."
   },
   "examples": [
     {
       "id": "post-review-html",
       "category": "examples",
+      "audience": "creator",
       "path": "examples/post-review-html",
       "title": "Post Review HTML",
       "description": "BAMF-branded local HTML page for reviewing generated post drafts with exact LinkedIn line-break rendering. Agents: generate drafts, render this, open it, keep editing in chat.",
