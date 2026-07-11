@@ -29,9 +29,9 @@ idempotency keys, no publish-now).
 
 ## Examples
 
-| Example | What it does |
-|---|---|
-| [`post-review-html`](examples/post-review-html) | BAMF-branded local HTML review page for post drafts, with exact LinkedIn line-break rendering, creator avatar, dark mode, and sticky nav. |
+| Example | What it does | Live demo |
+|---|---|---|
+| [`post-review-html`](examples/post-review-html) | BAMF-branded local HTML review page for post drafts, with exact LinkedIn line-break rendering, creator avatar, dark mode, and sticky nav. | [bamf.ai/demos/post-review-html](https://bamf.ai/demos/post-review-html/) |
 
 ## Starters
 

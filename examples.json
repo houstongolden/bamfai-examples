@@ -18,6 +18,7 @@
       "description": "BAMF-branded local HTML page for reviewing generated post drafts with exact LinkedIn line-break rendering. Agents: generate drafts, render this, open it, keep editing in chat.",
       "when_to_use": "Any time you create or edit BAMF post drafts in a terminal agent session and the user needs to review copy.",
       "entrypoint": "render.py",
+      "demo_url": "https://bamf.ai/demos/post-review-html/",
       "files": [
         "examples/post-review-html/README.md",
         "examples/post-review-html/template.html",
