@@ -14,6 +14,13 @@ being built yet.
 All items below are single-creator workflows. This is the active build track,
 in priority order.
 
+### Shipped foundations
+
+- `post-review-html`: local, exact-line-break draft review page.
+- `lovable-creator-app`: staged Lovable prompts for a Vite + React + Supabase
+  app with a creator-scoped BAMF Edge Function, capability discovery, approval
+  gates, scheduling confirmation, and optional LinkedIn connector diagnostics.
+
 ### Track 1 — Next examples
 
 #### 1. Media in the review page (image + carousel previews) — next up

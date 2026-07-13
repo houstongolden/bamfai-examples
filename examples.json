@@ -1,6 +1,6 @@
 {
   "$schema_note": "Machine-readable index of this repo for coding agents. Fetch raw: https://raw.githubusercontent.com/houstongolden/bamfai-examples/main/examples.json",
-  "version": 1,
+  "version": 2,
   "repo": "https://github.com/houstongolden/bamfai-examples",
   "raw_base": "https://raw.githubusercontent.com/houstongolden/bamfai-examples/main",
   "categories": {
@@ -27,6 +27,22 @@
       ],
       "requires": ["python3 (stdlib only)"],
       "bamf_apis": ["GET /creator-spaces", "POST /generate/posts", "POST /posts", "PATCH /posts/{post_id}"]
+    },
+    {
+      "id": "lovable-creator-app",
+      "category": "examples",
+      "audience": "creator",
+      "path": "examples/lovable-creator-app",
+      "title": "Lovable Creator App Prompts",
+      "description": "Staged prompts for scaffolding a secure Vite, React, and Supabase creator app in Lovable with BAMF capability discovery, generation, exact approval gates, optional scheduling, and LinkedIn connector diagnostics.",
+      "when_to_use": "When building a custom single-creator Lovable app against the public BAMF API without exposing a BAMF key or private BAMF implementation details.",
+      "entrypoint": "LOVABLE_PROMPTS.md",
+      "files": [
+        "examples/lovable-creator-app/README.md",
+        "examples/lovable-creator-app/LOVABLE_PROMPTS.md"
+      ],
+      "requires": ["Lovable project", "Supabase or Lovable Cloud with Edge Functions", "creator-scoped BAMF API key"],
+      "bamf_apis": ["GET /agent/capabilities", "GET /me", "GET /creator-spaces", "POST /generate/posts", "GET /jobs/{job_id}", "POST /posts", "POST /posts/{post_id}/schedule"]
     }
   ],
   "starters": []
