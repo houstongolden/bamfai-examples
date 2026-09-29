@@ -10,6 +10,7 @@ examples.json      machine-readable index — agents start here
 examples/          small, single-purpose pieces to pull into a session
   post-review-html/  local HTML page for reviewing generated post drafts
   lovable-creator-app/ staged prompts for a secure Lovable creator app
+  creator-new/       remixable creator.new Lovable studio built on BAMF
 starters/          full starter apps (Next.js, Vite, …) — coming soon
 ```
 
@@ -32,6 +33,7 @@ idempotency keys, no publish-now).
 
 | Example | What it does | Live demo |
 |---|---|---|
+| [`creator-new`](examples/creator-new) | Featured template: remixable, open-source creator studio for the creator.new Lovable app. Onboarding picks platforms and formats, then drafts in the creator's voice via the BAMF API/MCP; no social OAuth. | [Lovable project](https://lovable.dev/projects/ac24b2af-427a-4e8f-9a63-22a389f153e5) |
 | [`post-review-html`](examples/post-review-html) | BAMF-branded local HTML review page for post drafts, with exact LinkedIn line-break rendering, creator avatar, dark mode, and sticky nav. | [bamf.ai/demos/post-review-html](https://bamf.ai/demos/post-review-html/) |
 | [`lovable-creator-app`](examples/lovable-creator-app) | Staged copy/paste prompts for a secure Vite + React + Supabase app with BAMF generation, exact approval gates, scheduling, connector diagnostics, and QA. | — |
 
