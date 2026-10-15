@@ -14,9 +14,15 @@ voice assets, and any source references you have permission to use.
 
 - `SKILL.md` — task routing, production workflow, safeguards, and deliverable
   checklist.
-- `HOUSTON_GOLDEN_GIVEAWAY_DRAFT.md` — a source-aware worked example of a free-
-  skill promotion. It is an original script and proposed shot plan, not a rendered
-  video or a frame-accurate recreation of the linked Instagram Reel.
+- `HOUSTON_GOLDEN_GIVEAWAY_DRAFT.md` — source-aware worked example for a free-
+  skill promotion, with an original script and proposed shot plan.
+- `HOUSTON_GOLDEN_BAMF_LAUNCH_GIVEAWAY_DRAFT.md` — BAMF.ai founder-led launch
+  and free-resource promo, with an illustrative holographic-coworker metaphor.
+  Script and shot plan only; no video has been rendered or approved.
+
+Both examples are original adaptations of a broad free-resource-reveal premise,
+not frame-accurate recreations of the linked Instagram Reel. The source video's
+frames, voice, and edit have not been inspected.
 
 The skill uses broad, reusable structure; it does not reproduce a specific
 creator's exact wording, voice, film, or edit. It does not imply that a reference
