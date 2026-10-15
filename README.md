@@ -10,6 +10,7 @@ examples.json      machine-readable index — agents start here
 examples/          small, single-purpose pieces to pull into a session
   post-review-html/  local HTML page for reviewing generated post drafts
   lovable-creator-app/ staged prompts for a secure Lovable creator app
+  creator-led-resource-video/ reusable skill for original resource-promo videos
 starters/          full starter apps (Next.js, Vite, …) — coming soon
 ```
 
@@ -34,6 +35,7 @@ idempotency keys, no publish-now).
 |---|---|---|
 | [`post-review-html`](examples/post-review-html) | BAMF-branded local HTML review page for post drafts, with exact LinkedIn line-break rendering, creator avatar, dark mode, and sticky nav. | [bamf.ai/demos/post-review-html](https://bamf.ai/demos/post-review-html/) |
 | [`lovable-creator-app`](examples/lovable-creator-app) | Staged copy/paste prompts for a secure Vite + React + Supabase app with BAMF generation, exact approval gates, scheduling, connector diagnostics, and QA. | — |
+| [`creator-led-resource-video`](examples/creator-led-resource-video) | Reusable creator-led short-video skill for original tutorial, free-resource, or legitimate giveaway campaigns. | — |
 
 ## Starters
 

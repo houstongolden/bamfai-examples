@@ -43,6 +43,21 @@
       ],
       "requires": ["Lovable project", "Supabase or Lovable Cloud with Edge Functions", "creator-scoped BAMF API key"],
       "bamf_apis": ["GET /agent/capabilities", "GET /me", "GET /creator-spaces", "POST /generate/posts", "GET /jobs/{job_id}", "POST /posts", "POST /posts/{post_id}/schedule"]
+    },
+    {
+      "id": "creator-led-resource-video",
+      "category": "examples",
+      "audience": "creator",
+      "path": "examples/creator-led-resource-video",
+      "title": "Creator-Led Resource Video Skill",
+      "description": "Reusable skill for original creator-led tutorial, free-resource promotion, and legitimate giveaway scripts and video shot plans.",
+      "when_to_use": "When planning a short creator-led video with a real offer, approved likeness/voice assets, and a truthful CTA.",
+      "entrypoint": "SKILL.md",
+      "files": [
+        "examples/creator-led-resource-video/SKILL.md",
+        "examples/creator-led-resource-video/README.md"
+      ],
+      "requires": ["Creator and offer context", "Approved likeness/voice assets when used"]
     }
   ],
   "starters": []
