@@ -2,7 +2,7 @@
 
 **Status:** Original script and production brief only. No footage has been rendered, approved, or published.
 
-**Reference:** [Alex Carter's Instagram Reel](https://www.instagram.com/reel/DeXeGzVM5Lc/). Its public caption promotes a free Claude website-design skill. The source video, voice, shot sequence, and edit have not been inspected. This example borrows only the broad free-resource-reveal premise; it is not an exact recreation.
+**Reference:** [Alex Carter's Instagram Reel](https://www.instagram.com/reel/DeXeGzVM5Lc/). Its public caption promotes a free Claude website-design skill. A few frames in the public preview show a vertical creator-and-software split composition, oversized high-contrast headline, and minimal title insert. Instagram labels the Reel “AI content,” but the label does not establish how the presenter was created. Full narration, music, timeline, and edit are not analyzed. This example uses only the broad format and partial visual cues; it is not an exact recreation.
 
 **Format tags:** product launch · founder-led · creator likeness · free-resource promo (not a prize contest) · cinematic B-roll · illustrative AI characters · 9:16 · 30 seconds.
 
@@ -28,12 +28,14 @@ The free offer is the [Creator-Led Resource Video skill](https://github.com/hous
 
 | Time | Picture | Audio / edit |
 | --- | --- | --- |
-| 0–3s | Approved Houston likeness, close framing; confident, natural movement | Hook begins immediately; clean hard cut, restrained captions |
-| 3–8s | Match-cut to the same founder setup, slightly wider; no face or wardrobe drift | Founder line; one motivated jump cut |
-| 8–15s | Original holographic coworker metaphor enters a computer, then transitions toward a phone and cloud motif; unmistakably cinematic/illustrative, no fake BAMF screens | Founder voiceover; purposeful motion and sound design, not copied music or edit |
-| 15–22s | Show the real public Creator-Led Resource Video skill or a verified BAMF screen capture. If neither is captured, stay on abstract authored B-roll and do not invent interface details. | Voiceover explaining the free skill; minimal on-screen labels |
-| 22–26s | Return to the opening camera position for a visual bookend | Founder line; pause after “for free” |
-| 26–30s | Clean end card with BAMF.ai and the verified free-skill destination | “Link in my bio”; CTA stays readable through the final beat |
+| 0–3s | Open on an original 9:16 two-panel composition: approved Houston likeness below, real BAMF product capture above; one short original headline bridges the panels | Hook begins immediately; crisp cut, restrained captions |
+| 3–8s | Keep founder and real screen together briefly, then cut to a clean close-up with consistent face, wardrobe, and lighting | Founder line; one motivated jump cut |
+| 8–15s | An original holographic coworker metaphor travels from computer to phone to cloud; clearly illustrative and separate from product proof | Houston voiceover; authored motion and sound design, not the source track or edit |
+| 15–22s | Return to creator-plus-screen layout using the actual public skill or verified BAMF capture; never fabricate interface details | Voiceover explaining the free skill; minimal original headline treatment |
+| 22–26s | Brief black title insert with original BAMF typography, then return to the opening camera position | Founder line; pause after “for free” |
+| 26–30s | Clean black end card with BAMF.ai and the verified free-skill destination | “Link in my bio”; CTA stays readable through the final beat |
+
+**Renderer limitation:** Video Studio's current style-remix flow builds sequential scene clips and does not yet composite a synchronized two-panel founder-plus-screen shot. The plan is ready as a creative brief, but the exact split-panel treatment requires editor/export support and visual QA before it can be called replicated.
 
 ## Production and approval gates
 
