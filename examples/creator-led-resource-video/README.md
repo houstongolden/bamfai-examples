@@ -20,9 +20,14 @@ voice assets, and any source references you have permission to use.
   and free-resource promo, with an illustrative holographic-coworker metaphor.
   Script and shot plan only; no video has been rendered or approved.
 
-Both examples are original adaptations of a broad free-resource-reveal premise,
-not frame-accurate recreations of the linked Instagram Reel. The source video's
-frames, voice, and edit have not been inspected.
+Both examples are original adaptations of the broad free-resource-reveal
+premise, not frame-accurate recreations of the linked Instagram Reel. A public
+browser preview was sampled: it shows a vertical creator-and-software split
+composition, a large high-contrast headline, and a brief minimal title insert.
+Instagram labels the post “AI content,” but that label does not establish how
+the presenter was created. The full timeline, narration, music, and editing
+sequence have not been analyzed; treat these as partial visual observations,
+not a shot-by-shot breakdown.
 
 The skill uses broad, reusable structure; it does not reproduce a specific
 creator's exact wording, voice, film, or edit. It does not imply that a reference
