@@ -10,6 +10,31 @@
   },
   "examples": [
     {
+      "id": "creator-new",
+      "category": "starters",
+      "audience": "creator",
+      "path": "examples/creator-new",
+      "title": "creator.new Lovable Starter",
+      "description": "Remixable, open-source creator studio built natively on BAMF.ai for the creator.new Lovable app. Onboarding picks platforms and formats, then drafts in the creator's voice through the BAMF API/MCP. Accounts connect through BAMF; no social OAuth in the app.",
+      "when_to_use": "When you want a remixable Lovable creator studio (private by default) that drafts per platform and format through a creator-scoped BAMF key held in an edge function.",
+      "entrypoint": "README.md",
+      "files": [
+        "examples/creator-new/README.md",
+        "examples/creator-new/ONBOARDING_PROMPT.md"
+      ],
+      "requires": [
+        "Lovable project",
+        "Lovable Cloud or Supabase with Edge Functions",
+        "creator-scoped BAMF API key"
+      ],
+      "bamf_apis": [
+        "GET /agent/capabilities",
+        "GET /creator-spaces",
+        "POST /generate/posts",
+        "GET /jobs/{job_id}"
+      ]
+    },
+    {
       "id": "post-review-html",
       "category": "examples",
       "audience": "creator",
@@ -25,8 +50,15 @@
         "examples/post-review-html/render.py",
         "examples/post-review-html/sample.review.json"
       ],
-      "requires": ["python3 (stdlib only)"],
-      "bamf_apis": ["GET /creator-spaces", "POST /generate/posts", "POST /posts", "PATCH /posts/{post_id}"]
+      "requires": [
+        "python3 (stdlib only)"
+      ],
+      "bamf_apis": [
+        "GET /creator-spaces",
+        "POST /generate/posts",
+        "POST /posts",
+        "PATCH /posts/{post_id}"
+      ]
     },
     {
       "id": "lovable-creator-app",
@@ -41,8 +73,20 @@
         "examples/lovable-creator-app/README.md",
         "examples/lovable-creator-app/LOVABLE_PROMPTS.md"
       ],
-      "requires": ["Lovable project", "Supabase or Lovable Cloud with Edge Functions", "creator-scoped BAMF API key"],
-      "bamf_apis": ["GET /agent/capabilities", "GET /me", "GET /creator-spaces", "POST /generate/posts", "GET /jobs/{job_id}", "POST /posts", "POST /posts/{post_id}/schedule"]
+      "requires": [
+        "Lovable project",
+        "Supabase or Lovable Cloud with Edge Functions",
+        "creator-scoped BAMF API key"
+      ],
+      "bamf_apis": [
+        "GET /agent/capabilities",
+        "GET /me",
+        "GET /creator-spaces",
+        "POST /generate/posts",
+        "GET /jobs/{job_id}",
+        "POST /posts",
+        "POST /posts/{post_id}/schedule"
+      ]
     },
     {
       "id": "creator-led-resource-video",
