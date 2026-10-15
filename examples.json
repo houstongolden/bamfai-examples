@@ -99,7 +99,8 @@
       "entrypoint": "SKILL.md",
       "files": [
         "examples/creator-led-resource-video/SKILL.md",
-        "examples/creator-led-resource-video/README.md"
+        "examples/creator-led-resource-video/README.md",
+        "examples/creator-led-resource-video/HOUSTON_GOLDEN_GIVEAWAY_DRAFT.md"
       ],
       "requires": ["Creator and offer context", "Approved likeness/voice assets when used"]
     }

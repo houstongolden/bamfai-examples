@@ -14,6 +14,9 @@ voice assets, and any source references you have permission to use.
 
 - `SKILL.md` — task routing, production workflow, safeguards, and deliverable
   checklist.
+- `HOUSTON_GOLDEN_GIVEAWAY_DRAFT.md` — a source-aware worked example of a free-
+  skill promotion. It is an original script and proposed shot plan, not a rendered
+  video or a frame-accurate recreation of the linked Instagram Reel.
 
 The skill uses broad, reusable structure; it does not reproduce a specific
 creator's exact wording, voice, film, or edit. It does not imply that a reference
